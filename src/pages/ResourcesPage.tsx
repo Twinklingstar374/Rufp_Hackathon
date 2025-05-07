@@ -34,60 +34,73 @@ const ResourcesPage: React.FC = () => {
                 <h3 className="text-lg font-medium mb-2 text-gray-900">
                   "Gender and Urban Mobility: Addressing Unequal Access to Transportation in Indian Cities"
                 </h3>
-                <p className="text-gray-600 mb-3 text-sm">Sharma, A. & Patel, R. (2023). Journal of Urban Planning, 45(3), 218-236.</p>
+                <p className="text-gray-600 mb-3 text-sm">by A Singh · 2025</p>
                 <p className="text-gray-700 mb-3">
-                  This comprehensive study examines how gender affects transportation patterns and access in six 
-                  major Indian cities, with specific focus on safety concerns and their impact on mobility decisions.
+                  Fighting gender inequality through mobility: Assessing Delhi’s ‘Pink Ticket’ scheme
                 </p>
-                <button className="flex items-center text-purple-600 hover:text-purple-700 transition-colors text-sm font-medium">
-                  <Download className="h-4 w-4 mr-1" />
-                  Download PDF
-                </button>
+                <a
+                  href="https://www.ideasforindia.in/topics/social-identity/fighting-gender-inequality-through-mobility-assessing-delhi-s-pink-ticket-scheme.html"
+                    download
+                    className="flex items-center text-purple-600 hover:text-purple-700 transition-colors text-sm font-medium"
+                  >
+                    <Download className="h-4 w-4 mr-1" />
+                    Download PDF
+                  </a>
               </div>
               
               <div className="border-b border-gray-100 pb-6">
                 <h3 className="text-lg font-medium mb-2 text-gray-900">
                   "The Economic Cost of Restricted Mobility: Quantifying Women's Transport Poverty in Metro Cities"
                 </h3>
-                <p className="text-gray-600 mb-3 text-sm">Kumar, S., Mehta, V., & Singh, J. (2022). Economic & Political Weekly, 57(12), 45-53.</p>
+                <p className="text-gray-600 mb-3 text-sm">Ankita Kapoor</p>
                 <p className="text-gray-700 mb-3">
-                  This paper presents a novel methodology for measuring the economic impact of safety-related mobility 
-                  restrictions on women's labor market participation and earnings potential.
+                 This report focuses on highlighting the gaps in the current public transport scenario in these cities and suggesting recommendations to mitigate the issue .
                 </p>
-                <button className="flex items-center text-purple-600 hover:text-purple-700 transition-colors text-sm font-medium">
-                  <Download className="h-4 w-4 mr-1" />
-                  Download PDF
-                </button>
+                <a
+                  href="https://asiafoundation.org/wp-content/uploads/2024/08/Women-and-Mobility_India.pdf"
+                    download
+                    className="flex items-center text-purple-600 hover:text-purple-700 transition-colors text-sm font-medium"
+                  >
+                    <Download className="h-4 w-4 mr-1" />
+                    Download PDF
+                  </a>
               </div>
               
               <div className="border-b border-gray-100 pb-6">
                 <h3 className="text-lg font-medium mb-2 text-gray-900">
                   "Beyond Women's Carriages: Designing Inclusive Public Transport Systems"
                 </h3>
-                <p className="text-gray-600 mb-3 text-sm">Desai, M. & Joshi, P. (2022). Transportation Research Part F: Psychology and Behaviour, 84, 123-141.</p>
+                <p className="text-gray-600 mb-3 text-sm">By Ka Ying Wong and KE Seetha Ram. Posted January 17, 2025</p>
                 <p className="text-gray-700 mb-3">
-                  A critical analysis of gender-segregated transit solutions and their long-term effectiveness, 
-                  with case studies of alternative approaches from global cities.
+                Silent Struggles: Advancing Women’s Mobility with Public Transportation in Asia
                 </p>
-                <button className="flex items-center text-purple-600 hover:text-purple-700 transition-colors text-sm font-medium">
-                  <Download className="h-4 w-4 mr-1" />
-                  Download PDF
-                </button>
+                <a
+                  href="https://www.asiapathways-adbi.org/2025/01/silent-struggles-advancing-womens-mobility-with-public-transportation-in-asia/"
+                    download
+                    className="flex items-center text-purple-600 hover:text-purple-700 transition-colors text-sm font-medium"
+                  >
+                    <Download className="h-4 w-4 mr-1" />
+                    Download PDF
+                  </a>
               </div>
               
               <div>
                 <h3 className="text-lg font-medium mb-2 text-gray-900">
                   "Digital Solutions for Women's Safety in Transit: Effectiveness and Limitations"
                 </h3>
-                <p className="text-gray-600 mb-3 text-sm">Gupta, N., Verma, K., & Thomas, E. (2023). Information Technology & People, 36(2), 567-589.</p>
-                <p className="text-gray-700 mb-3">
-                  This paper evaluates the impact of safety apps, tracking systems, and digital reporting mechanisms 
-                  on women's perceptions of safety and actual usage patterns of public transportation.
+                <p className="text-gray-600 mb-3 text-sm">A. Shaji George
                 </p>
-                <button className="flex items-center text-purple-600 hover:text-purple-700 transition-colors text-sm font-medium">
-                  <Download className="h-4 w-4 mr-1" />
-                  Download PDF
-                </button>
+                <p className="text-gray-700 mb-3">
+                Exploring the Limitations of Technology in Ensuring Women's Safety: A Gender-Inclusive Design Perspective
+                </p>
+                <a
+                  href="https://www.researchgate.net/publication/383568183_Exploring_the_Limitations_of_Technology_in_Ensuring_Women's_Safety_A_Gender-Inclusive_Design_Perspective"
+                    download
+                    className="flex items-center text-purple-600 hover:text-purple-700 transition-colors text-sm font-medium"
+                  >
+                    <Download className="h-4 w-4 mr-1" />
+                    Download PDF
+                  </a>
               </div>
             </div>
           </section>
@@ -108,24 +121,35 @@ const ResourcesPage: React.FC = () => {
                   How Delhi Metro implemented a multi-faceted approach combining infrastructure, technology, 
                   staff training, and community engagement to improve women's safety.
                 </p>
-                <button className="flex items-center text-teal-600 hover:text-teal-700 transition-colors text-sm font-medium">
-                  <LinkIcon className="h-4 w-4 mr-1" />
-                  Read Case Study
-                </button>
+                  <a
+                    href="https://questionofcities.org/the-delhi-metro-is-inclusive-but-also-not-equitable/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center text-teal-600 hover:text-teal-700 transition-colors text-sm font-medium"
+                  >
+                    <LinkIcon className="h-4 w-4 mr-1" />
+                    Read Case Study
+                  </a>
               </div>
               
               <div className="border-b border-gray-100 pb-6">
                 <h3 className="text-lg font-medium mb-2 text-gray-900">
-                  Mumbai's "Between Stations" Program
+                Engendering Mumbai’s
+                Suburban Railway System 
                 </h3>
                 <p className="text-gray-700 mb-3">
                   An innovative approach addressing last-mile connectivity through coordinated safe transit 
                   corridors linking stations to major residential and commercial areas.
                 </p>
-                <button className="flex items-center text-teal-600 hover:text-teal-700 transition-colors text-sm font-medium">
-                  <LinkIcon className="h-4 w-4 mr-1" />
-                  Read Case Study
-                </button>
+                <a
+                    href="https://mrvc.indianrailways.gov.in/works/uploads/File/Gender%20Study%20Report%20by%20TISS%281%29.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center text-teal-600 hover:text-teal-700 transition-colors text-sm font-medium"
+                  >
+                    <LinkIcon className="h-4 w-4 mr-1" />
+                    Read Case Study
+                  </a>
               </div>
               
               <div>
@@ -136,10 +160,15 @@ const ResourcesPage: React.FC = () => {
                   How Bangalore implemented gender-responsive budgeting in transportation planning, allocating 
                   resources specifically for safety-enhancing infrastructure improvements.
                 </p>
-                <button className="flex items-center text-teal-600 hover:text-teal-700 transition-colors text-sm font-medium">
-                  <LinkIcon className="h-4 w-4 mr-1" />
-                  Read Case Study
-                </button>
+                <a
+                    href="https://www.feministpolicyindia.org/documents/resources/grb_papers_india_updf_final.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center text-teal-600 hover:text-teal-700 transition-colors text-sm font-medium"
+                  >
+                    <LinkIcon className="h-4 w-4 mr-1" />
+                    Read Case Study
+                  </a>
               </div>
             </div>
           </section>
@@ -159,13 +188,20 @@ const ResourcesPage: React.FC = () => {
                   Safety Audit Toolkit for Transport Planners
                 </h3>
                 <p className="text-gray-700 mb-3">
-                  A step-by-step guide for conducting gender-sensitive safety audits of transportation infrastructure, 
-                  including ready-to-use assessment templates and scoring mechanisms.
+                A guidance brief based on the ‘Toolkit for
+                  Enabling Gender Responsive Urban Mobility
+                  and Public Spaces’
                 </p>
-                <button className="flex items-center text-pink-600 hover:text-pink-700 transition-colors text-sm font-medium">
-                  <Download className="h-4 w-4 mr-1" />
-                  Download Toolkit
-                </button>
+                <a
+                href="https://documents1.worldbank.org/curated/en/099659110202251900/pdf/IDU05dc37f9b08dc9042840bb5d08b6c41f62a47.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center text-pink-600 hover:text-pink-700 transition-colors text-sm font-medium"
+              >
+                <Download className="h-4 w-4 mr-1" />
+                Download Toolkit
+              </a>
+
               </div>
               
               <div className="border-b border-gray-100 pb-6">
@@ -176,10 +212,15 @@ const ResourcesPage: React.FC = () => {
                   Resources for training transport staff and the public on effective, safe intervention strategies 
                   when witnessing harassment or unsafe situations in transit settings.
                 </p>
-                <button className="flex items-center text-pink-600 hover:text-pink-700 transition-colors text-sm font-medium">
-                  <Download className="h-4 w-4 mr-1" />
-                  Download Materials
-                </button>
+                <a
+                href="https://www.health.ny.gov/publications/2040.pdf?utm_source=chatgpt.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center text-pink-600 hover:text-pink-700 transition-colors text-sm font-medium"
+              >
+                <Download className="h-4 w-4 mr-1" />
+                Download Toolkit
+              </a>
               </div>
               
               <div>
@@ -190,10 +231,15 @@ const ResourcesPage: React.FC = () => {
                   A comprehensive guide for policymakers to develop and implement transportation policies that 
                   effectively address gender-specific needs and safety concerns.
                 </p>
-                <button className="flex items-center text-pink-600 hover:text-pink-700 transition-colors text-sm font-medium">
-                  <Download className="h-4 w-4 mr-1" />
-                  Download Framework
-                </button>
+                <a
+                href="https://cms.uitp.org/wp/wp-content/uploads/2022/08/P1737610d0f8070d00931b093ae318c2914.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center text-pink-600 hover:text-pink-700 transition-colors text-sm font-medium"
+              >
+                <Download className="h-4 w-4 mr-1" />
+                Download Toolkit
+              </a>
               </div>
             </div>
           </section>
